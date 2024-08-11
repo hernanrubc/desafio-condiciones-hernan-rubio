@@ -1,0 +1,81 @@
+body h1 {
+        font-size: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+.cuadro {
+    width: 200px;
+    height: 200px;
+    background-color: beige; 
+    border: 5px solid green; 
+    margin: 20px;
+}
+
+.seleccionStickers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.stickers img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;}
+
+
+
+    .stickers input[type="number"] {
+        padding: 3px;
+        font-size: 14px;
+        border: 2px solid #ddd;
+        border-radius: 5px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 20px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    button {
+        display: block;
+        margin: 20px auto;
+        padding: 5px 10px;
+        background-color: rgb(94, 164, 94);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+
+
+    button:hover {
+        color: white;
+        background-color: black;
+    }
+    
+
+    .password-verification {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    select {
+        font-size: 16px;
+        padding: 5px;
+        margin: 10px;
+        border-radius: 5px;
+        border: 2px solid #ddd;
+  
+    }
